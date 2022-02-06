@@ -207,9 +207,30 @@ header {
 
 .keyboard {
   display: grid;
-  grid-template: repeat(3, 1fr) / repeat(11, minmax(0, 1fr));
+  grid-template: repeat(3, 1fr) / repeat(10, minmax(0, 1fr));
   grid-gap: 0.3rem;
   justify-content: center;
+}
+
+.layout-se {
+  grid-template: repeat(3, 1fr) / repeat(11, minmax(0, 1fr));
+}
+.layout-enGB {
+  grid-template: repeat(3, 1fr) / repeat(10, minmax(0, 1fr));
+}
+.layout-enUS {
+  grid-template: repeat(3, 1fr) / repeat(10, minmax(0, 1fr));
+}
+.layout-es {
+  grid-template: repeat(3, 1fr) / repeat(10, minmax(0, 1fr));
+}
+
+.change-language {
+  filter: grayscale(100%);
+}
+
+.change-language.active {
+  filter: none;
 }
 
 .key {
