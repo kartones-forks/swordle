@@ -6,7 +6,7 @@ Swordle is a Swedish 🇸🇪 [Wordle](https://www.powerlanguage.co.uk/wordle) c
 
 Small modification of the original code to allow for different languages, each with their word dictionary and guess attempts. Uses local storage, same as the original, and provides a small script (inside `tools/` subfolder) to build the words from a Linux dictionary.
 
-Some improvements can be done, like the dict script writing directly the words file, but as a quick hack to practice multiple languages.
+Some improvements can be done, like the dict script writing directly the words file.
 
 The keyboard layout is modified to show all available characters, including those that normally wouldn't appear on a keyboard like Spanish accents.
 
